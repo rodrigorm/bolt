@@ -8,7 +8,8 @@ Bolt gives you offline access to over 150+ APIs	documentation, provided by Dash 
 Usage
 =====
 
-Download a docset from `http://kapeli.com/docset_links` and extract into `docsets` folder.
+Download the PHP docset from http://london.kapeli.com/feeds/PHP.tgz and extract into `docsets` folder
+Run `node index.js`
 
 Patch for Debian Wheezy
 -----------------------

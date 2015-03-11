@@ -1,0 +1,23 @@
+{
+  "name": "Bolt",
+  "version": "0.0.1",
+  "description": "Offline API documentation browser inspired by Dash",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:rodrigorm/bolt.git"
+  },
+  "author": "Rodrigo Moyle <rodrigorm@gmail.com>",
+  "license": "GPL-3.0+",
+  "bugs": {
+    "url": "https://github.com/rodrigorm/bolt/issues"
+  },
+  "homepage": "https://github.com/rodrigorm/bolt",
+  "dependencies": {
+    "bower": "^1.3.12",
+    "node-thrust": "^0.7.6-rc.1"
+  }
+}
