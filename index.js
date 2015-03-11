@@ -7,7 +7,12 @@ require('node-thrust')(function(err, api) {
 	});
 
 	window.on('closed', function() {
-		process.exit(0);
+		try {
+			process.kill('-' + process.pid);
+		}
+		finally {
+			process.exit(0);
+		}
 	});
 
 	window.show();
